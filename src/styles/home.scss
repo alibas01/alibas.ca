@@ -1,0 +1,21 @@
+@import './mixins';
+@import './palette';
+
+.dark-tiger {
+  @include center-in-parent;
+  width: 1000px;
+  z-index: 0
+}
+
+h1{
+  @include center-in-parent;
+  font-size: 60px;
+  color: red
+}
+
+.allpage{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+
+}
