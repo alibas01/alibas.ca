@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import "../styles/css/welcome.css"
+import "../styles/home.scss"
 
 import Button from "./Button";  
 
@@ -14,10 +14,8 @@ export default function Home(props) {
           className="--welcome"
         />
       </Link>
-      <div className="video-container">
-        <video autoPlay="autoplay" loop>
-          <source src='https://github.com/defsax/fly-fi/blob/master/frontend/public/videos/flyfi.mp4?raw=true' type="video/mp4"/>
-        </video>
+      <div className="dark-tiger">
+          <img src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/Dark-tiger2.png' />
       </div>
     </div>
   )
