@@ -14,7 +14,7 @@ export default function Footer() {
             <img
             className='linkedin'
             alt='business'
-            src='https://github.com/alibas01/alibas.ca/blob/master/public/images/linkedin.png'
+            src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/linkedin.png'
             />
           </a>
         </li>
@@ -24,7 +24,7 @@ export default function Footer() {
             <img
             className='github'
             alt='code'
-            src='https://github.com/alibas01/alibas.ca/blob/master/public/images/linkedin.png'
+            src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/github.png'
             />
           </a>
         </li>
@@ -34,7 +34,7 @@ export default function Footer() {
             <img
             className='twitter'
             alt='social'
-            src='https://github.com/alibas01/alibas.ca/blob/master/public/images/linkedin.png'
+            src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/twitter.png'
             ></img>
           </a>
         </li>
@@ -44,7 +44,7 @@ export default function Footer() {
             <img
             className='email'
             alt='email'
-            src='https://github.com/alibas01/alibas.ca/blob/master/public/images/Resume.png'
+            src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/mail.png'
             ></img>
           </a>
         </li>
