@@ -4,9 +4,9 @@
 .button {
   border-radius: 1rem;
   border: 0;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   height: 2rem;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
 
   width: 18rem;
   border: 1px solid black;
@@ -55,6 +55,8 @@
   }
   &--welcome:hover {
     box-shadow: inset 0 0 10px #ff55f7, 0 0 20px #ff55f7;
+    color:#ff55f7;
+    
   }
 
   &:disabled {
