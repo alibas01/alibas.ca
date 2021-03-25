@@ -3,19 +3,31 @@
 
 .dark-tiger {
   @include center-in-parent;
-  width: 1000px;
+  width: 800px;
   z-index: 0
 }
 
 h1{
   @include center-in-parent;
   font-size: 60px;
-  color: red
+  color: rgb(177, 73, 73)
 }
 
 .allpage{
   background-color: black;
   display: flex;
   flex-direction: column;
-
 }
+
+.buttig {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+

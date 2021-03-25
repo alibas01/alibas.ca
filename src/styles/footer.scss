@@ -1,5 +1,26 @@
+.footer {
+  margin: 130px 0px 0px 0px;
+}
+
 .footer-menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.linkedin {
+  width: 60px
+  
+}
+
+.twitter {
+  width: 60px
+}
+
+.github {
+  width: 90px
+}
+
+.email {
+  width: 90px
 }

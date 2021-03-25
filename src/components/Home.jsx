@@ -8,16 +8,38 @@ import Footer from "./Footer";
 export default function Home(props) {  
   return(
     <div className="allpage">
-      <h1>WELCOME TO ALIBAS.CA</h1>
-      <Link to='/'>
-        <Button 
-          text="Resume" 
-          disabled={false} 
-          className="--welcome"
-        />
-      </Link>
-      <div className="tiger">
-          <img className="dark-tiger" src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/Dark-tiger2.png' />
+      <h1>Welcome to my personel page!</h1>
+      <div className="buttig">
+              <div className="tiger">
+                  <img className="dark-tiger" src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/Dark-tiger2.png' />
+              </div>
+        <section className="menu">
+                <Button 
+                  text="Resume" 
+                  disabled={false} 
+                  className="--welcome"
+                />
+                <Button 
+                  text="Projects" 
+                  disabled={false} 
+                  className="--welcome"
+                />
+                <Button 
+                  text="Blog" 
+                  disabled={false} 
+                  className="--welcome"
+                />
+                <Button 
+                  text="Tuitter" 
+                  disabled={false} 
+                  className="--welcome"
+                />
+                <Button 
+                  text="Fly-Fi" 
+                  disabled={false} 
+                  className="--welcome"
+                />     
+        </section>
       </div>
       <div>
         <Footer />
