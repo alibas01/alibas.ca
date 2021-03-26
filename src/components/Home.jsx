@@ -29,7 +29,7 @@ export default function Home(props) {
                   disabled={false} 
                   className="--welcome"
                 />
-                <Button 
+                {/* <Button 
                   text="Tuitter" 
                   disabled={false} 
                   className="--welcome"
@@ -38,7 +38,7 @@ export default function Home(props) {
                   text="Fly-Fi" 
                   disabled={false} 
                   className="--welcome"
-                />     
+                />      */}
         </section>
       </div>
       <div>

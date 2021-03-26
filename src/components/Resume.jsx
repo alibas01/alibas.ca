@@ -4,6 +4,7 @@ import "../styles/home.scss"
 
 import Button from "./Button";  
 import Footer from "./Footer"; 
+import Nav from "./Nav"; 
 
 export default function Resume(props) {  
   return(
