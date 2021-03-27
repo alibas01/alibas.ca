@@ -30,17 +30,17 @@ export default function Home(props) {
           </Link>
           <Link to='/resume'>
             <Button 
-              text="Blog" 
+              text="Blog (coming soon)" 
               disabled={false} 
               className="--welcome"
             />
           </Link>
+            <Button 
+              text="Tuuitter (coming soon)" 
+              disabled={false} 
+              className="--welcome"
+            />
                 {/* <Button 
-                  text="Tuitter" 
-                  disabled={false} 
-                  className="--welcome"
-                />
-                <Button 
                   text="Fly-Fi" 
                   disabled={false} 
                   className="--welcome"
