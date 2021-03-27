@@ -9,7 +9,7 @@ import Nav from "../Nav";
 export default function Projects(props) {  
   return(
       <div className="allpage">
-      <h1 className="project-title">Projects</h1>
+        <Nav title="Projects" menu="Resumé"/>
       <div className="buttig">
       <section className="project-links">
         <a href={'https://interview-scheduler-ali.netlify.app/'}>

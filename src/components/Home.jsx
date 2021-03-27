@@ -16,7 +16,7 @@ export default function Home(props) {
         <section className="menu">
           <Link to='/resume'>
             <Button 
-              text="Resume" 
+              text="Resumé" 
               disabled={false} 
               className="--welcome"
             />

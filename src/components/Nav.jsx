@@ -1,55 +1,58 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../styles/nav.scss";
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import Clock from 'react-clock';
 
-export default function Nav() {
-  
+// STYLESHEETS
+import 'react-clock/dist/Clock.css';
+import '../styles/nav.scss';
 
-  return(
+
+export default function Nav(props) {
+
+  const [time, setTime] = useState(new Date());
+  useEffect(() => {
+    const interval = setInterval(() => setTime(new Date()), 1000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
+
+  return (
     <nav className='nav' >
-      <ul className='nav-menu'>
-
+      <Link to='/'>
+        <img
+          className='navbar-logo'
+          alt='home'
+          src={
+            'https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/home-button.png'
+            //'https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/tigeringlasses.png'
+          }
+        ></img>
+      </Link>
+      <section className='title-group'>
+      <img
+          className='tiger-with'
+          alt='tiger'
+          src={
+            //'https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/home-button.png'
+            'https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/tigeringlasses.png'
+          }
+        ></img>
+      <h1 className="title">{props.title + " Page"}</h1>
+      </section>
+      <div className='nav-bar-actions'>
+        <ul className='nav-menu'>
         <li className='nav-item'>
-          <a href={'https://www.linkedin.com/in/alibas01/'}>
-            <img
-            className='linkedin'
-            alt='business'
-            src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/linkedin.png'
-            />
-          </a>
-        </li>
-
-        <li className='nav-item' >
-          <a href={'https://github.com/alibas01'}>
-            <img
-            className='github'
-            alt='code'
-            src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/github.png'
-            />
-          </a>
-        </li>
-
-        <li className='nav-item' >
-          <a href={'https://twitter.com/AliBash01'}>
-            <img
-            className='twitter'
-            alt='social'
-            src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/twitter.png'
-            ></img>
-          </a>
-        </li>
-
-        <li className='nav-item'>
-          <a href={'mailto:alibas01@gmail.com'}>
-            <img
-            className='email'
-            alt='email'
-            src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/mail.jpeg'
-            ></img>
-          </a>
-        </li>
-          
-      </ul>
+            <Link to={props.menu === 'Resumé' ? '/resume' : '/projects'}>
+              <button className='nav-button'>{"Go to " + props.menu + " Page"}</button>
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Clock value={time} size='110' className="class2 class3"/>
+          </li>
+        </ul>
+      </div>
     </nav>
-  );
-};
+  )
+}
