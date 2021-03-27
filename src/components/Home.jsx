@@ -14,21 +14,27 @@ export default function Home(props) {
                   <img className="dark-tiger" src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/Dark-tiger2.png' />
               </div>
         <section className="menu">
-                <Button 
-                  text="Resume" 
-                  disabled={false} 
-                  className="--welcome"
-                />
-                <Button 
-                  text="Projects" 
-                  disabled={false} 
-                  className="--welcome"
-                />
-                <Button 
-                  text="Blog" 
-                  disabled={false} 
-                  className="--welcome"
-                />
+          <Link to='/resume'>
+            <Button 
+              text="Resume" 
+              disabled={false} 
+              className="--welcome"
+            />
+          </Link>
+          <Link to='/projects'>
+            <Button 
+              text="Projects" 
+              disabled={false} 
+              className="--welcome"
+            />
+          </Link>
+          <Link to='/resume'>
+            <Button 
+              text="Blog" 
+              disabled={false} 
+              className="--welcome"
+            />
+          </Link>
                 {/* <Button 
                   text="Tuitter" 
                   disabled={false} 

@@ -14,7 +14,7 @@ export default function Resume(props) {
             I like coding,
             which is what I do
             in Toronto, ON.
-            You can contact me at alibas01@gmail.com
+            You can contact me at <a href={'mailto:alibas01@gmail.com'}>alibas01@gmail.com</a>
         </h3>
         <div className="tiger">
             <img className="gold-tiger" src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/Gold-tiger.png' />
