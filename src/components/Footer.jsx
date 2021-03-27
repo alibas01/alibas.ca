@@ -44,7 +44,7 @@ export default function Footer() {
             <img
             className='email'
             alt='email'
-            src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/mail.jpeg'
+            src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/mail.png'
             ></img>
           </a>
         </li>
