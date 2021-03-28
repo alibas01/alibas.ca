@@ -18,6 +18,22 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
       - run: npm test
+  deploy:
+    machine:
+      enabled: true
+
+    working_directory: ~/client
+
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "04:fa:63:64:52:25:4c:4b:8b:3c:4b:c4:b7:6f:da:f0"
+      - checkout
+      - run:
+          name: Push Master to Production
+          command: |
+            git push https://github.com/alibas01/alibas.ca.git master:production
+
 
 workflows:
   version: 2
