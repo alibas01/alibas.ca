@@ -11,7 +11,7 @@ export default function Home(props) {
       <h1>Welcome to my personel page!</h1>
       <div className="buttig">
               <div className="tiger">
-                  <img className="dark-tiger" src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/Dark-tiger2.png' />
+                  <img className="dark-tiger" alt="dtiger" src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/Dark-tiger2.png' />
               </div>
         <section className="menu">
           <Link to='/resume'>

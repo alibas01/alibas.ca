@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 // import "../styles/css/welcome.css"
 
-import Button from "../Button";  
+//import Button from "../Button";  
 import Footer from "../Footer"; 
 import Nav from "../Nav"; 
 
@@ -34,7 +34,7 @@ export default function Projects(props) {
             <p> Deep Learning Model with Tensorflow and Keras. </p>
       </section>
               <div className="tesla">
-                  <img className="tesla-img" src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/tesla.jpg' />
+                  <img className="tesla-img" alt="tesla" src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/tesla.jpg' />
               </div>
       <section className="project-links">
         <a href={'https://github.com/defsax/fly-fi'}>  
