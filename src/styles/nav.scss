@@ -31,8 +31,8 @@
 
   .navbar-logo {
     justify-content: left;
-    width: 40px;
-    padding-left: 20px;
+    width: 3em;
+    padding-left: 2em;
   }
   // .navbar-logo:hover {
   //   width: 60px;
@@ -79,7 +79,7 @@
 
 .title {
     @include center-in-parent;
-    font-size: 50px;
+    font-size: 2.7em;
     color: rgb(177, 73, 73);
     margin: 0px 0px 0px 0px;
 }
@@ -90,11 +90,11 @@
   position: fixed;
   left: 40%;
   .tiger-with {
-    height: 90px;
+    height: 6em;
     opacity: 0.8;
   }
   .tiger-with:hover {
-    height: 200px;
+    height: 12em;
     opacity: 1;
   }
 }
