@@ -49,7 +49,7 @@ export default function Nav(props) {
             </Link>
           </li>
           <li className='nav-item'>
-            <Clock value={time} size='110' className="class1 class2"/>
+            <Clock value={time} size='110' className="class2"/>
           </li>
         </ul>
       </div>
