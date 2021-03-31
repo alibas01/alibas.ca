@@ -48,8 +48,8 @@ export default function Nav(props) {
               <button className='nav-button'>{"Go to " + props.menu + " Page"}</button>
             </Link>
           </li>
-        <li className='nav-clock'>
-          <Clock value={time} size={110} className="class2 class3"/>
+        <li className='nav-item'>
+          <Clock value={time} size={110} />
         </li>
         </ul>
       </div>
