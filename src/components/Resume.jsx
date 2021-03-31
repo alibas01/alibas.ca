@@ -21,7 +21,7 @@ export default function Resume(props) {
         <img className="gold-tiger" alt="gtiger" src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/Gold-tiger.png' />
       </section>
       <div className="resume-page">
-      <a href='https://drive.google.com/file/d/1Kvo5H4sfn10z1jT_iAqNp3ZVk6ff0znD/view?usp=sharing'>
+      <a target="_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/1Kvo5H4sfn10z1jT_iAqNp3ZVk6ff0znD/view?usp=sharing'>
         <img
           className='resume-logo'
           alt='home'
