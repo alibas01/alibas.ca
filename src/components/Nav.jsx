@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Clock from 'react-clock';
 
 // STYLESHEETS
-import 'react-clock/dist/Clock.css';
+import '../styles/Clock.css';
 import '../styles/nav.scss';
 
 
@@ -48,9 +48,9 @@ export default function Nav(props) {
               <button className='nav-button'>{"Go to " + props.menu + " Page"}</button>
             </Link>
           </li>
-          <li className='nav-item'>
-            <Clock value={time} size='110' className="class2"/>
-          </li>
+        <li className='nav-clock'>
+          <Clock value={time} size={110} className="class2 class3"/>
+        </li>
         </ul>
       </div>
     </nav>
