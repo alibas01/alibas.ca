@@ -1,5 +1,5 @@
-@import './palette';
-@import './mixins';
+@import "./palette";
+@import "./mixins";
 
 .nav {
   // position: relative;
@@ -26,7 +26,33 @@
 
   .nav-menu {
     display: flex;
-    align-items: center;
+    align-content: center;
+    padding-right: 90px;
+    .nav-item {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      list-style: none;
+      margin-right: -80px;
+    }
+    .nav-item-link {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-family: "Kalam", cursive;
+      font-size: 1.5rem;
+      padding-right: 1rem;
+    }
+    .tiger-with {
+      height: 100px;
+      position: relative;
+      opacity: 0.8;
+      margin-left: -109px;
+      z-index: -7;
+    }
   }
 
   .navbar-logo {
@@ -42,14 +68,6 @@
     justify-content: flex-end;
   }
 
-  .nav-item {
-    font-family: 'Kalam', cursive;
-    font-size: 1.5rem;
-    text-decoration: none;
-    list-style: none;
-    margin-right: 1.5rem;
-  }
-
   a.nav-link {
     color: white;
     font-size: 1.2rem;
@@ -57,17 +75,17 @@
   }
 
   .nav-button {
-    font-family: 'Kalam', monospace;
+    font-family: "Kalam", monospace;
     font-size: 1.5rem;
     // text-decoration: none;
-    color:white;
+    color: white;
     border: none;
     background-color: black;
     outline: none;
     &:hover {
       cursor: pointer;
       text-shadow: 0px 0px 20px #ff55f7;
-      color: #ff55f7
+      color: #ff55f7;
     }
   }
 }
@@ -78,29 +96,44 @@
 }
 
 .title {
-    @include center-in-parent;
-    font-size: 2.7em;
-    color: rgb(177, 73, 73);
-    margin: 0px 0px 0px 0px;
+  @include center-in-parent;
+  font-size: 2.7em;
+  color: rgb(177, 73, 73);
+  margin: 0px 0px 0px 0px;
 }
 .title-group {
   @include center-in-parent;
   display: flex;
   flex-direction: row;
   position: fixed;
-  left: 40%;
-  .tiger-with {
-    height: 6em;
-    opacity: 0.8;
+  left: 43%;
+}
+
+@media (max-width: 1300px) {
+  .title {
+    font-size: 2em;
   }
-  .tiger-with:hover {
-    height: 12em;
-    opacity: 1;
+
+  .nav {
+    .nav-button {
+      font-size: 1rem;
+    }
+    .nav-item {
+      font-size: 1rem;
+    }
   }
-  // .nav-clock {
-  //   margin-right: 1.5rem;
-  //   background-color: aqua;
-  //   z-index: -1;
-  // }
-  
+}
+
+@media (max-width: 650px) {
+  .title-group {
+    left: 20%;
+  }
+  .nav-menu {
+    // .nav-button {
+    //   font-size: 1rem;
+    // }
+    .nav-item {
+      display: none;
+    }
+  }
 }

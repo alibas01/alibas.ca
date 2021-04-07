@@ -1,5 +1,5 @@
-@import './palette';
-@import './mixins';
+@import "./palette";
+@import "./mixins";
 
 .button {
   border-radius: 1rem;
@@ -55,8 +55,7 @@
   }
   &--welcome:hover {
     box-shadow: inset 0 0 10px #ff55f7, 0 0 20px #ff55f7;
-    color:#ff55f7;
-    
+    color: #ff55f7;
   }
 
   &:disabled {
@@ -67,5 +66,16 @@
   }
   &:focus {
     outline: none;
+  }
+}
+@media all and (max-width: 650px) {
+  .button {
+    border-radius: 0.8rem;
+    font-size: 0.8em;
+    height: 1.4rem;
+    line-height: 1rem;
+
+    width: 9.5rem;
+    margin: 0.3rem;
   }
 }
