@@ -115,6 +115,20 @@ h3 {
   box-shadow: inset 0 0 100px white, 0 0 200px #55ff7f;
 }
 
+@media (max-width: 1300px) {
+  .tesla-img {
+    height: 30vh;
+  }
+  .project-links {
+    h4 {
+      font-size: 1em;
+    }
+    p {
+      width: 18em;
+      font-size: 0.8em;
+    }
+  }
+}
 @media all and (max-width: 650px) {
   .dark-tiger {
     height: 40vh;
@@ -147,41 +161,8 @@ h3 {
     display: none;
   }
 }
-
-@media (max-width: 1300px) {
-  .tesla-img {
-    height: 30vh;
-  }
-  .project-links {
-    h4 {
-      font-size: 1em;
-    }
-    p {
-      width: 18em;
-      font-size: 0.8em;
-    }
+@media all and (max-width: 400px) {
+  .buttig {
+    flex-direction: column;
   }
 }
-// @media all and (max-width: 400px) {
-//   .footer-menu {
-//     flex-direction: column-reverse;
-//   }
-
-//   .linkedin {
-//     width: 1.9em;
-//     padding-left: 0.5em;
-//   }
-
-//   .twitter {
-//     width: 1.7em;
-//     padding-left: 0.5em;
-//   }
-
-//   .github {
-//     width: 2.7em;
-//   }
-
-//   .email {
-//     width: 10em;
-//     margin-top: 40px;
-//   }
