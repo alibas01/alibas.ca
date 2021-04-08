@@ -52,6 +52,11 @@ h3 {
   flex-direction: row;
   justify-content: space-between;
 }
+.buttig-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 .menu {
   display: flex;
@@ -162,7 +167,7 @@ h3 {
   }
 }
 @media all and (max-width: 400px) {
-  .buttig {
+  .buttig-projects {
     flex-direction: column;
   }
 }
