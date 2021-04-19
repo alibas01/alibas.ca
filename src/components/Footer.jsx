@@ -10,7 +10,11 @@ export default function Footer() {
       <ul className='footer-menu'>
 
         <li className='footer-item'>
-          <a href={'https://www.linkedin.com/in/alibas01/'}>
+          <a 
+            target="_blank"
+            rel="noopener noreferrer" 
+            href={'https://www.linkedin.com/in/alibas01/'}
+          >
             <img
             className='linkedin'
             alt='business'
@@ -20,7 +24,11 @@ export default function Footer() {
         </li>
 
         <li className='footer-item' >
-          <a href={'https://github.com/alibas01'}>
+          <a 
+            target="_blank"
+            rel="noopener noreferrer" 
+            href={'https://github.com/alibas01'}
+          >
             <img
             className='github'
             alt='code'
@@ -30,7 +38,11 @@ export default function Footer() {
         </li>
 
         <li className='footer-item' >
-          <a href={'https://twitter.com/AliBash01'}>
+          <a 
+            target="_blank"
+            rel="noopener noreferrer" 
+            href={'https://twitter.com/AliBash01'}
+          >
             <img
             className='twitter'
             alt='social'
