@@ -24,13 +24,13 @@ export default function Home(props) {
           <Link to="/projects">
             <Button text="Projects" disabled={false} className="--welcome" />
           </Link>
-          <a
+          {/* <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://plausible.io/alibas.ca"
           >
             <Button text="Statistics" disabled={false} className="--welcome" />
-          </a>
+          </a> */}
           <Button
             text="Tuuitter (coming soon)"
             disabled={false}
