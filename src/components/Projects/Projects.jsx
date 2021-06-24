@@ -70,6 +70,17 @@ export default function Projects(props) {
           <a
             target="_blank"
             rel="noopener noreferrer"
+            href={"https://shrouded-tundra-39846.herokuapp.com/"}
+          >
+            <h4>* Tuuitter - Blog</h4>
+          </a>
+          <p>
+            {" "}
+            Stack: Rails, HTML, CSS, Bootstrap, Ruby, Sqlite, Bcrypt, Puma,
+          </p>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
             href={"https://github.com/defsax/fly-fi"}
           >
             <h4>* Fly-Fi</h4>

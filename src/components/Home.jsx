@@ -31,11 +31,17 @@ export default function Home(props) {
           >
             <Button text="Statistics" disabled={false} className="--welcome" />
           </a> */}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://shrouded-tundra-39846.herokuapp.com/"
+          >
           <Button
-            text="Tuuitter (coming soon)"
+            text="Tuuitter - Blog"
             disabled={false}
             className="--welcome"
           />
+          </a>
           {/* <Button 
                   text="Fly-Fi" 
                   disabled={false} 
