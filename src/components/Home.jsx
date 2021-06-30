@@ -36,11 +36,22 @@ export default function Home(props) {
             rel="noopener noreferrer"
             href="https://shrouded-tundra-39846.herokuapp.com/"
           >
-          <Button
-            text="Tuuitter - Blog"
-            disabled={false}
-            className="--welcome"
-          />
+            <Button
+              text="Tuuitter - Blog"
+              disabled={false}
+              className="--welcome"
+            />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://interview-scheduler-ali.netlify.app/"
+          >
+            <Button
+              text="Interview - Scheduler"
+              disabled={false}
+              className="--welcome"
+            />
           </a>
           {/* <Button 
                   text="Fly-Fi" 
