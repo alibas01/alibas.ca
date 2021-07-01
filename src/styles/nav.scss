@@ -57,12 +57,12 @@
 
   .navbar-logo {
     justify-content: left;
-    width: 3em;
+    font-size: 30 px;
     padding-left: 2em;
   }
-  // .navbar-logo:hover {
-  //   width: 60px;
-  // }
+  .navbar-logo:hover {
+    color: dodgerblue;
+  }
 
   .nav-bar-actions {
     justify-content: flex-end;

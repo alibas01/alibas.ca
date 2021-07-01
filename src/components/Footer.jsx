@@ -3,65 +3,53 @@ import React from "react";
 import "../styles/footer.scss";
 
 export default function Footer() {
-  
-
-  return(
-    <nav className='footer' >
-      <ul className='footer-menu'>
-
-        <li className='footer-item'>
-          <a 
+  return (
+    <nav className="footer">
+      <ul className="footer-menu">
+        <li className="footer-item">
+          <a
             target="_blank"
-            rel="noopener noreferrer" 
-            href={'https://www.linkedin.com/in/alibas01/'}
+            rel="noopener noreferrer"
+            href={"https://www.linkedin.com/in/alibas01/"}
           >
-            <img
-            className='linkedin'
-            alt='business'
-            src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/linkedin.png'
-            />
+            <span className="icon linkedin">
+              <i className="fab fa-linkedin-in"></i>
+            </span>
           </a>
         </li>
 
-        <li className='footer-item' >
-          <a 
+        <li className="footer-item">
+          <a
             target="_blank"
-            rel="noopener noreferrer" 
-            href={'https://github.com/alibas01'}
+            rel="noopener noreferrer"
+            href={"https://github.com/alibas01"}
           >
-            <img
-            className='github'
-            alt='code'
-            src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/github.png'
-            />
+            <span className="icon github">
+              <i className="fab fa-github"></i>
+            </span>
           </a>
         </li>
 
-        <li className='footer-item' >
-          <a 
+        <li className="footer-item">
+          <a
             target="_blank"
-            rel="noopener noreferrer" 
-            href={'https://twitter.com/AliBash01'}
+            rel="noopener noreferrer"
+            href={"https://twitter.com/AliBash01"}
           >
-            <img
-            className='twitter'
-            alt='social'
-            src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/twitter.png'
-            ></img>
+            <span className="icon twitter">
+              <i className="fab fa-twitter"></i>
+            </span>
           </a>
         </li>
 
-        <li className='footer-item'>
-          <a href={'mailto:alibas01@gmail.com'}>
-            <img
-            className='email'
-            alt='email'
-            src='https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/mail.png'
-            ></img>
+        <li className="footer-item">
+          <a href={"mailto:alibas01@gmail.com"}>
+            <span className="icon email">
+              <i className="fas fa-envelope-square"></i>
+            </span>
           </a>
         </li>
-          
       </ul>
     </nav>
   );
-};
+}

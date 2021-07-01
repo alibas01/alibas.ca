@@ -18,14 +18,9 @@ export default function Nav(props) {
   return (
     <nav className="nav">
       <Link to="/">
-        <img
-          className="navbar-logo"
-          alt="home"
-          src={
-            "https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/home-button.png"
-            //'https://raw.githubusercontent.com/alibas01/alibas.ca/master/public/images/tigeringlasses.png'
-          }
-        ></img>
+        <span className="navbar-logo">
+          <i className="fas fa-home fa-3x"></i>
+        </span>
       </Link>
       <section className="title-group">
         <h1 className="title">{props.title + " Page"}</h1>
