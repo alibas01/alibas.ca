@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/home.scss";
 
@@ -6,9 +7,43 @@ import Button from "./Button";
 import Footer from "./Footer";
 
 export default function Home(props) {
+  const [value, setValue] = useState("");
+
+  const reset = function () {
+    setTimeout(() => {
+      setValue("");
+    }, 500);
+  };
+
   return (
     <div className="allpage">
       <h1>Welcome to my personal page!</h1>
+      <div className="search-box">
+        <form
+          action="https://www.google.com/search"
+          className="searchform"
+          method="get"
+          name="searchform"
+          target="_blank"
+        >
+          <input
+            autocomplete="on"
+            className="form-control search form-control-lg"
+            name="q"
+            value={value}
+            onChange={(value) => setValue(value.target.value)}
+            placeholder="Search in Google"
+            //required="required"
+            type="text"
+          />
+          <Button
+            className="--submit"
+            type="submit"
+            text="Search"
+            onClick={reset}
+          />
+        </form>
+      </div>
       <div className="buttig">
         <div className="tiger">
           <img
