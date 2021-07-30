@@ -43,16 +43,15 @@ export default function Resume(props) {
             </strong>
             &nbsp; and databases such as&nbsp;
             <strong>
-              <u>MySQL and Postgres, MangoDB.</u>
+              <u>MySQL, MangoDB and Postgres.</u>
             </strong>
           </p>
           <br />
           <p>
-            For testing,&nbsp;
+            For testing, CMS, CD/CI;&nbsp;
             <strong>
               <u>
-                CMS, CD/CI; JEST, Storybook, Cypress, Mocha, Chai, Git, GitHub,
-                CircleCI
+                JEST, Storybook, Cypress, Mocha, Chai, Git, GitHub, CircleCI
               </u>
               &nbsp;
             </strong>
