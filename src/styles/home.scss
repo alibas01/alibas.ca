@@ -184,6 +184,11 @@ h6 {
   .tesla-img {
     display: none;
   }
+  .h3 p {
+    color: snow;
+    font-size: 0.4em;
+    width: 36em;
+  }
 }
 @media all and (max-width: 400px) {
   .buttig-projects {
@@ -195,5 +200,10 @@ h6 {
 
   .dark-tiger {
     height: 28vh;
+  }
+  .h3 p {
+    color: snow;
+    font-size: 0.2em;
+    width: 30em;
   }
 }
