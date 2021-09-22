@@ -13,10 +13,8 @@ export default function Resume(props) {
       <section className="yazi">
         <div className="h3">
           <p>
-            My transition started in 2017. You can find on my LinkedIn page that
-            I have a strong background in different areas. But that is not the
-            point. The point is "I want to follow my second big passion in my
-            life. "Coding".
+            I am a former fighter pilot who has a second passion in coding. A former soldier, a dad of two beautiful kids, a husband of the most amazing wife in the world, a ragdoll cat owner, a Canadian-Turkish, a liberal rationalist muslim,
+    a developer, a data enthusiast, coding mentor, aerospace manufacturing professional and an AVIATOR.
           </p>
           &nbsp;
           <br />
