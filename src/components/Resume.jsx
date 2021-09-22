@@ -79,7 +79,7 @@ export default function Resume(props) {
           &nbsp;
           <br />
           <p>
-            If you still wonder, my first passion is aviation. And my background
+            My background
             is in general, a former jet pilot, NATO operation planner, data
             interpretation and commenting, analyst, program manager in Aerospace
             manufacturing and Leadership. I have some diplomas in industrial
