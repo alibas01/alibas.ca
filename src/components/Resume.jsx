@@ -13,8 +13,9 @@ export default function Resume(props) {
       <section className="yazi">
         <div className="h3">
           <p>
-            I am a former fighter pilot who has a second passion in coding. A former soldier, a dad of two beautiful kids, a husband of the most amazing wife in the world, a ragdoll cat owner, a Canadian-Turkish, a liberal rationalist muslim,
-    a developer, a data enthusiast, coding mentor, aerospace manufacturing professional and an AVIATOR.
+            I am a former fighter pilot who has a second passion in coding. A former soldier, a dad of two beautiful kids, 
+    a husband of the most amazing wife in the world, a ragdoll cat owner, a Canadian-Turkish,
+    a developer, a data enthusiast, coding mentor, aerospace manufacturing professional and an <u>AVIATOR</u>.
           </p>
           &nbsp;
           <br />
