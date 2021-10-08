@@ -99,7 +99,7 @@ export default function Resume(props) {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1E1WAqb3Oz1q0szh1iIyqBLSsp83FUeWI/view?usp=sharing"
+            href="https://drive.google.com/file/d/1twPJJgHwJUQR8XnitgS9lwWJwqPlnGHn/view?usp=sharing"
           >
             <img
               className="resume-logo"
