@@ -52,6 +52,16 @@ export default function Projects(props) {
             target="_blank"
             rel="noopener noreferrer"
             href={
+              "https://github.com/alibas01/minesweeper"
+            }
+          >
+            <h4>* MineSweeperr Game</h4>
+          </a>
+          <p> Stack : React.js </p>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={
               "https://github.com/alibas01/Classifying-Nature-Pictures/blob/master/Capstone%20Project%202%20Final%20Report.pdf"
             }
           >
