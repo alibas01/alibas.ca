@@ -59,6 +59,12 @@ export default function Home(props) {
           <Link to="/projects">
             <Button text="Projects" disabled={false} className="--welcome" />
           </Link>
+          <Link to="/minesweeper">
+            <Button text="MineSweeper" disabled={false} className="--welcome" />
+          </Link>
+          <Link to="/mywordle">
+            <Button text="MyWordle" disabled={false} className="--welcome" />
+          </Link>
           {/* <a
             target="_blank"
             rel="noopener noreferrer"
