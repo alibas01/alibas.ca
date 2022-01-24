@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.layout-Hard {
+  text-align: center;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  width: 880px;
+  height: auto;
+  margin: 30px;
+}
+.layout-Medium {
+  text-align: center;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  width: 580px;
+  height: auto;
+  margin: 30px;
+}
+.layout-Easy {
+  text-align: center;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  width: 300px;
+  height: auto;
+  margin: 30px;
+}
